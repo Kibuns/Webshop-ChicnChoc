@@ -4,7 +4,7 @@ import LoginButton from "./components/LoginButton";
 import LogoutButton from "./components/LogoutButton";
 import Profile from "./components/Profile";
 import { useAuth0 } from "@auth0/auth0-react";
-import UserComponent from "./components/UserComponent";
+import UserComponent from "./components/ProductComponent";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages";

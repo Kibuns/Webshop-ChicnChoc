@@ -1,0 +1,19 @@
+.card-row {
+  display: flex;
+  z-index: 1;
+  margin-right: 5px;
+  margin-left: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-evenly;
+}
+
+.card-img {
+  width: 50vh;
+  height: 55vh;
+}
+
+.card {
+  background-color: blue;
+}

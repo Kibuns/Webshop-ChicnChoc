@@ -1,17 +1,11 @@
 import React from "react";
-import UserComponent from "../components/UserComponent";
+import ProductComponent from "../components/ProductComponent";
+import UserComponent from "../components/ProductComponent";
 
 const Services = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "90vh",
-      }}
-    >
-      <UserComponent />
+    <div>
+      <ProductComponent />
     </div>
   );
 };
