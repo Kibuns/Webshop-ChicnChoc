@@ -27,7 +27,7 @@ export default class ProductComponent extends React.Component {
     return (
       <div>
         <h2 className="text-center">Product Details</h2>
-        <div className="card-row">
+        <div className="card-row" data-testid="name">
           {this.state.product.map((product) => (
             <div className="card">
               <div className="card-img">
