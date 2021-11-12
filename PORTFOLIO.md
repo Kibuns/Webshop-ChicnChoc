@@ -6,7 +6,7 @@
 
 ## C4 Models
 
-The C4 models below will explain the application architecture in different scope, getting less abstract the further you go. Below I displayed all the interations with design process, But if you want to skip to the most recent iteration, click [here](#most%20recent)
+The C4 models below will explain the application architecture in different scope, getting less abstract the further you go. Below I displayed all the interations with design process, But if you want to skip to the most recent iteration, click [here](#mostrecent)
 
 
 
@@ -19,7 +19,7 @@ After making the design above, I started working on the application. When buildi
 Seeing as I’m constantly refactoring the design of my application, it seemed a good idea to make use of an API gateway. This gateway acts as an abstraction layer, making it easier for the front-end to make calls and making it possible to check for authentication in one central point. I also added a discovery service, which will make it easier to scale if I ever want to do so. Though this is totally optional, since I was not planning on scaling/load balancing in the first place.
 
 
-### Most Recent
+### MostRecent
 
 <img src ="https://media.discordapp.net/attachments/898556114663252018/908005823043735642/Untitled_Diagram.drawio.png?width=661&height=671" />
 
