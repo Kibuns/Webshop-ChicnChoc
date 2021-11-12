@@ -4,9 +4,37 @@
 
 ## User Stories
 
+<table>
+  <tr>
+    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672326256721930/unknown.png" width=400 height=250></td> 
+    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672399015284746/unknown.png" width=400 height=250></td> 
+  </tr>
+ <tr>
+    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672464886837268/unknown.png" width=400 height=250></td> 
+    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672528514449418/unknown.png" width=400 height=250></td> 
+  </tr>
+ <tr>
+    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672600815841300/unknown.png" width=400 height=250></td>
+   <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672872850030612/unknown.png" width=400 height=250></td> 
+  </tr>
+   <tr>
+    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672654393872394/unknown.png" width=400 height=250></td>
+   <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672713130921994/unknown.png" width=400 height=250></td> 
+  </tr>
+   <tr>
+    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672769653366784/unknown.png" width=400 height=250></td>
+   <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672821448810496/unknown.png" width=400 height=250></td> 
+  </tr>
+    </tr>
+
+ </table>
+ 
+
+
+
 ## C4 Models
 
-The C4 models below will explain the application architecture in different scope, getting less abstract the further you go. Below I displayed all the interations with design process, But if you want to skip to the most recent iteration, click [here](#mostrecent)
+The C4 models below will explain the application architecture in different scope, getting less abstract the further you go. Below I displayed all the iterations with design process, But if you want to skip to the most recent iteration, click [here](#mostrecent)
 
 
 
@@ -27,14 +55,38 @@ Seeing as I’m constantly refactoring the design of my application, it seemed a
 Below are the learning outcomes that I will cover in this project. I also desribe how I accomplished this.
 
 ## 1. Web application
+
 _User friendly: You apply basic User experience testing and development techniques._
 
 _Full-stack: You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues._
+
+### 1. Product page
+
+### 2. API Gateway
+
+### 3. Login
+
 ## 2. Software quality
+
 _Tooling and methodology: Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews._
+
+### Testing
+
+### Code Reviews
+
+### CI/CD
+
 ## 3. CI/CD
+
 _Design and implement: You design a release process and implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker)._
+
+### Docker
+
+### Automatic testing
+
 ## 4. Professional
+
 _Professional manner:
 You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions.
 You choose and substantiate solutions for a given problem._
+
