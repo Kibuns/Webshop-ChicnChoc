@@ -62,17 +62,23 @@ _Full-stack: You design and build a full stack application using commonly accept
 
 ### 1. Product page
 
+I made a product page where the application calls the GetAllProducts() method and then proceeds to map all of the products into cards. As seen below.
 <img src ="https://user-images.githubusercontent.com/77112006/142210324-b95fcea5-318b-47d4-b726-c1ffc34b1b26.png" width=900/>
 
 ### 2. API Gateway
+The reasons for using an API Gateway can be found [here](#C4Models). this gateway should be using the discovery service, but I couldn't get that working yet. So I used a direct link to localhost:8080. Seeing as I may not even use the discovery service anyways.
 <img src ="https://user-images.githubusercontent.com/77112006/142210484-5a992404-d707-4022-b4d1-2718180b6ace.png" width=900/>
 
 
 
 ### 3. Login
 
+I made a login button that redirect to Auth0, if you then log in, Auth0 will return a JWT token which the application can then use.
 <img src ="https://user-images.githubusercontent.com/77112006/142210599-0a4c6a0a-083c-4e63-a0ae-b1153eace27d.png" width=900/>
 <img src ="https://user-images.githubusercontent.com/77112006/142210776-e09485b3-8d9e-4566-92b1-2e9d29e1f777.png" width=900/>
+
+Sources:
+- [CodeSTACKr Auth0 react project](https://github.com/codeSTACKr/react-auth0)
 
 
 
