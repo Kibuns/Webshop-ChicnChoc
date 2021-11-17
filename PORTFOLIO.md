@@ -66,7 +66,7 @@ I made a product page where the application calls the GetAllProducts() method an
 <img src ="https://user-images.githubusercontent.com/77112006/142210324-b95fcea5-318b-47d4-b726-c1ffc34b1b26.png" width=900/>
 
 ### 2. API Gateway
-The reasons for using an API Gateway can be found [here](#C4). this gateway should be using the discovery service, but I couldn't get that working yet. So I used a direct link to localhost:8080. Seeing as I may not even use the discovery service anyways.
+The reasons for using an API Gateway can be found [here](#c4-models). this gateway should be using the discovery service, but I couldn't get that working yet. So I used a direct link to localhost:8080. Seeing as I may not even use the discovery service anyways.
 <img src ="https://user-images.githubusercontent.com/77112006/142210484-5a992404-d707-4022-b4d1-2718180b6ace.png" width=900/>
 
 
