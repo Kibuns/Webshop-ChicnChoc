@@ -1,6 +1,5 @@
 <img src="https://static.wixstatic.com/media/809fa5_c02c7069a7f246ed986e103ade08b3d1~mv2.gif"/>
 
-# Vision of the project
 
 ## User Stories
 
