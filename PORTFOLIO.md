@@ -77,11 +77,21 @@ After building this, I ran the container with Docker Desktop and everything work
 <img src ="https://user-images.githubusercontent.com/77112006/142208528-141e763c-7154-47c5-90fb-3512620d25c4.png" width=600/>
 <img src ="https://user-images.githubusercontent.com/77112006/142208704-7e35f132-9bbf-44dc-bf87-9f0ea0abcdec.png" width=600/>
 
+The next step was to make this process automatic, I did this by using github actions
+
+![image](https://user-images.githubusercontent.com/77112006/143243406-98e8ad58-84e1-429a-8d9f-8174665db1fd.png)
+![image](https://user-images.githubusercontent.com/77112006/143243267-69d0c7ed-0d48-4539-bdef-68337b126854.png)
+
+This also automatically pushes the images to Dockerhub. From here I could eventually automatically deploy these images.
+
+
+
+
 
 
 Sources:
-- [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/#:~:text=Docker%20enables%20developers%20to%20easily,which%20can%20run%20virtually%20anywhere.&text=Containers%20do%20this%20by%20enabling,modify%20and%20update%20the%20program.
-)
+- [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/#:~:text=Docker%20enables%20developers%20to%20easily,which%20can%20run%20virtually%20anywhere.&text=Containers%20do%20this%20by%20enabling,modify%20and%20update%20the%20program.)
+- [Build and push Docker images](https://github.com/marketplace/actions/build-and-push-docker-images)
 
 
 ## 4. Professional
