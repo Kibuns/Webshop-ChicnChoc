@@ -1,54 +1,6 @@
 <img src="https://static.wixstatic.com/media/809fa5_c02c7069a7f246ed986e103ade08b3d1~mv2.gif"/>
-
-
-## User Stories
-
-<table>
-  <tr>
-    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672326256721930/unknown.png" width=400 height=250></td> 
-    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672399015284746/unknown.png" width=400 height=250></td> 
-  </tr>
- <tr>
-    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672464886837268/unknown.png" width=400 height=250></td> 
-    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672528514449418/unknown.png" width=400 height=250></td> 
-  </tr>
- <tr>
-    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672600815841300/unknown.png" width=400 height=250></td>
-   <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672872850030612/unknown.png" width=400 height=250></td> 
-  </tr>
-   <tr>
-    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672654393872394/unknown.png" width=400 height=250></td>
-   <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672713130921994/unknown.png" width=400 height=250></td> 
-  </tr>
-   <tr>
-    <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672769653366784/unknown.png" width=400 height=250></td>
-   <td><img src="https://media.discordapp.net/attachments/898556114663252018/908672821448810496/unknown.png" width=400 height=250></td> 
-  </tr>
-    </tr>
-
- </table>
  
 
-
-
-## C4 Models
-
-The C4 models below will explain the application architecture in different scope, getting less abstract the further you go. Below I displayed all the iterations with design process, But if you want to skip to the most recent iteration, click [here](#mostrecent)
-
-
-
-
-<img src ="https://media.discordapp.net/attachments/898556114663252018/908004015994986546/unknown.png" />
-<img src ="https://media.discordapp.net/attachments/898556114663252018/908004114976366664/unknown.png" />
-After making the design above, I started working on the application. When building it, I found out there was an easy way for me the implement a remote login service. I was also told that implementing an email system with the tools provided by fontys is rather difficult. After that I made some adjustments to the previous two levels of C4:
-<img src ="https://media.discordapp.net/attachments/898556114663252018/908004239467499581/unknown.png" />
-<img src ="https://media.discordapp.net/attachments/898556114663252018/908004308530913350/unknown.png" />
-Seeing as I’m constantly refactoring the design of my application, it seemed a good idea to make use of an API gateway. This gateway acts as an abstraction layer, making it easier for the front-end to make calls and making it possible to check for authentication in one central point. I also added a discovery service, which will make it easier to scale if I ever want to do so. Though this is totally optional, since I was not planning on scaling/load balancing in the first place.
-
-
-### MostRecent
-
-<img src ="https://media.discordapp.net/attachments/898556114663252018/908005823043735642/Untitled_Diagram.drawio.png?width=661&height=671" />
 
 # Learning Outcomes
 Below are the learning outcomes that I will cover in this project. I also desribe how I accomplished this.
