@@ -3,15 +3,8 @@ import AddProduct from "../components/Dashboard/AddProduct";
 
 const Dashboard = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "90vh",
-      }}
-    >
-      <h1>AAAAAAAAAAAAAAAA</h1>
+    <div>
+      <h1>Create</h1>
       <AddProduct />
     </div>
   );
