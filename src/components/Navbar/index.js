@@ -28,6 +28,9 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
+          <NavLink to="/dashboard" activeStyle>
+            Dashboard
+          </NavLink>
           <NavLink to="/about" activeStyle>
             About
           </NavLink>
