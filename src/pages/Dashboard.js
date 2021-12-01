@@ -1,4 +1,5 @@
 import React from "react";
+import AddProduct from "../components/Dashboard/AddProduct";
 
 const Dashboard = () => {
   return (
@@ -11,6 +12,7 @@ const Dashboard = () => {
       }}
     >
       <h1>Dashboard</h1>
+      <AddProduct />
     </div>
   );
 };
