@@ -11,7 +11,7 @@ const Dashboard = () => {
         height: "90vh",
       }}
     >
-      <h1>Dashboard</h1>
+      <h1>AAAAAAAAAAAAAAAA</h1>
       <AddProduct />
     </div>
   );
