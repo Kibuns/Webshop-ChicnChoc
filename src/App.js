@@ -11,6 +11,7 @@ import Home from "./pages";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import ProfilePage from "./pages/Profile";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -31,6 +32,9 @@ function App() {
       </Switch>
       <Switch>
         <Route path="/services" exact component={Services} />
+      </Switch>
+      <Switch>
+        <Route path="/dashboard" exact component={Dashboard} />
       </Switch>
     </Router>
   );
