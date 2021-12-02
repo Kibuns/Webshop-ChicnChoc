@@ -52,6 +52,8 @@ Sources:
 ### 2. Code Reviews
 
 ## 3. CI/CD
+![image](https://user-images.githubusercontent.com/77112006/144503948-56237b0f-0e89-45d5-ad60-e31a320f2862.png)
+
 
 _Design and implement: You design a release process and implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker)._
 
