@@ -12,6 +12,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import ProfilePage from "./pages/Profile";
 import Dashboard from "./pages/Dashboard";
+import Shopping_cart from "./pages/Shopping_cart";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -35,6 +36,9 @@ function App() {
       </Switch>
       <Switch>
         <Route path="/dashboard" exact component={Dashboard} />
+      </Switch>
+      <Switch>
+        <Route path="/shopping_cart" exact component={Shopping_cart} />
       </Switch>
     </Router>
   );
