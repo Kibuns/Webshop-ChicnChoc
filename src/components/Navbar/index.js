@@ -43,6 +43,9 @@ const Navbar = () => {
           <NavLink to="/contact-us" activeStyle>
             Contact us
           </NavLink>
+          <NavLink to="/shopping_cart" activeStyle>
+            Shopping_cart
+          </NavLink>
           <LoginButton />
           <LogoutButton />
           <Avatar alt="avatar" src={user.picture} />
