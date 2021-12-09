@@ -109,6 +109,21 @@ During this project I wanted to see if I could make a contribution to another pr
 <img src ="https://user-images.githubusercontent.com/77112006/143215834-abf3045d-6466-4cc1-a0de-23a12c7615fb.png" width=900/>
 <img src ="https://user-images.githubusercontent.com/77112006/143215645-79201154-d414-4749-8743-e324a3cc4ae8.png" width=900/>
 
+On the other hand, I made sure that my project would be easy to contribute to. I do this by making a CONTRIBUTING.md to make sure everyone that wants to contribute to this project know what they have to do. I also make sure my issues are always very clear, and are labeled with "good first issue" if possible. That way github can make other people see my issues
+
+![image](https://user-images.githubusercontent.com/77112006/145406290-21db1e9f-fcc0-4304-9c56-431b932620fd.png)
+
+After doing this, I quickly had 2 people comment on one of my issues. One of which even immediately came through with a PR
+
+![image](https://user-images.githubusercontent.com/77112006/145406442-e01dfd7e-524f-4033-baf2-cdc6afe8d210.png)
+
+After reviewing their PR, I wasn't completely satisfied with what they made. So I edited my issue because I saw I wasn't clear enough (deleted the word "preferably" and added resources) and gave them some resources to help them on their way. In their next PR I was satisfied and I merged their branch.
+
+![image](https://user-images.githubusercontent.com/77112006/145406805-b15b32fa-c1ee-4ed5-93af-0b067289fc67.png)
+
+I learned a lot from this interaction. I learned that I should be really clear in writing my issues, and I learned how to communicate with people who want to contribute to my project
+
+
 ### Project Board
 In order to more easily work towards completing user stories, I decided to make a [project board](https://github.com/Kibuns/Webshop-ChicnChoc/projects/1). On this KANBAN board it's easier to see what I'm currently working on, and how certain PR's relate to user stories. From now on I'll also be working with the following workflow:
 - Make/look at user stories
@@ -118,7 +133,7 @@ In order to more easily work towards completing user stories, I decided to make 
 - Make PR
 - Repeat
 
-Do try this workflow out, I decided to work on a automatic docker build implementation for my product service. First I looked at the user story "[US11]As a developer I want to use tools to ease my development process in the long run". Then I made an issue about adding an automatic way to build a docker image on push to master. I worked on this in a branch, made a pull request, linked that request to the issue and the underlying user story, and then merged.
+Do try this workflow out, I decided to work on a automatic docker build implementation for my product service. Frist I looked at my user stories, but I wanted to find a way to ease the development process, so it kind of entails all of the user stories, so I just linked it to #4 since I wanted to work on that. Then I made an issue about adding an automatic way to build a docker image on push to master. I worked on this in a branch, made a pull request, linked that request to the issue and the underlying user story, and then merged.
 <img src ="https://user-images.githubusercontent.com/77112006/144237669-b6d4cc24-2024-4f04-bcff-97ce2141dc6d.png" width=900/>
 
 
