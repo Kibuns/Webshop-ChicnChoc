@@ -102,13 +102,14 @@ _Professional manner:
 You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions.
 You choose and substantiate solutions for a given problem._
 
-### Contribution
+### 1. Contribution
 During this project I wanted to see if I could make a contribution to another project. Just like me, my other classmates also have an emphasis on their project being open source. I went and looked at [this]() repository from a classmate, and while reading his portfolio I saw a lot of spelling and grammar mistakes. Wanting to help, I made an issue and forked the project. After fixing some mistakes I made a pull request, which eventually got approved. 
 
 
 <img src ="https://user-images.githubusercontent.com/77112006/143215834-abf3045d-6466-4cc1-a0de-23a12c7615fb.png" width=900/>
 <img src ="https://user-images.githubusercontent.com/77112006/143215645-79201154-d414-4749-8743-e324a3cc4ae8.png" width=900/>
 
+### 2. Getting Contributed To
 On the other hand, I made sure that my project would be easy to contribute to. I do this by making a CONTRIBUTING.md to make sure everyone that wants to contribute to this project know what they have to do. I also make sure my issues are always very clear, and are labeled with "good first issue" if possible. That way github can make other people see my issues
 
 ![image](https://user-images.githubusercontent.com/77112006/145406290-21db1e9f-fcc0-4304-9c56-431b932620fd.png)
