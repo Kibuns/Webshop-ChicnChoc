@@ -23,7 +23,7 @@ Marielle:
 > "Tight, gray"
 
 Jaicy:
-> ""
+> "Inventory"
 
 ### Task 2: Update the price of "Watch (pink)"
 Marielle:
@@ -36,6 +36,12 @@ Marielle:
 > "A confirmation message would be nice, otherwise I wouldn't be sure that it actually saved."
 
 Jaicy:
+- Completed in 15 seconds
+- Clicks row with watch in it
+- Click on price input field on the right
+- presses update
+
+> "What's the pencil for?
 
 ### Task 3: Add Product
 Marielle:
@@ -46,6 +52,10 @@ Marielle:
 > "What's the pencil button for?"
 
 Jaicy:
+- Completed in 9 seconds
+- Presses "+"
+- Inputs info in right panel
+- Presses update
 
 ### Task 4: Delete earring
 Marielle:
@@ -56,6 +66,12 @@ Marielle:
 > "Maybe a red "x" or a garbage can would be more clear for me. Since there is also a +, which looks like an x.
 
 Jaicy:
+- Completed in 7 seconds
+- Presses earring row
+- Presses "x" button
+- Presses update
+
+> "it's clear enough for me that x means delete, but i'm not sure someone like my mother would understand."
 
 ### Task 5: Update image of ring
 Marielle:
@@ -65,12 +81,19 @@ Marielle:
 - Wasn't clear how to change image. (Side effect of still working with image urls instead of choosing a file.)
 
 Jaicy:
+- Completed in 8 seconds
+- Clicks product row
+- Changes url in image field
+- Update
+
+> "It would be nice to get a preview of the image when I put in the url for it."
 
 ### General Feedback
-Marielle:
-- Input fields would be more logical on the left. No real reason other than her being accustomed to such screens being on the left.
+#### Marielle:
+Input fields would be more logical on the left. No real reason other than her being accustomed to such screens being on the left.
 
-Jaicy:
+#### Jaicy:
+Everything was clear enough. Only thing to add would be a preview image
 
 
 ## Result
@@ -79,7 +102,7 @@ From these tests there are a couple thing we can conclude:
 - The rows inside the list being selectable, which changes the side panel to that rows info, isn't clear enough
 - Feedback to the user is important, i.e. when deleting, updating, adding product. So they can be sure what they did actually got registered.
 - There is the expectation that something on the screen will change after pressing the "+" button to add a product, so either an empty fillable row in the list, or some other screen or message.
-- Changing images isn't clear to the average user. This is more of a technical thing. But should be definitely addressed before release.
+- Changing images isn't clear to the average user. This is more of a technical thing. But should be definitely addressed before release. A temporary solution is to have atleast a preview image when you filled in the url
 - Button should be clearer in what they do.
 - The word "save" is more clear than "update" since the average user only uses "update" for updates they download for things like apps and stuff.
 - The pencil button seems useless.
@@ -90,6 +113,7 @@ From these tests there are a couple thing we can conclude:
 - Add MUI Snackbar messages when user adds, updates and deletes products.
 - Change "+" to "Add Product" button, also use a pop up screen after pressing just like the dit pop up, rather change the "Save" button with "Add".
 - Changing image system should be changed, images should be able to be uploaded and hosted on the website.
+- For now there should be an image preview
 - Change the "x" button with a red garbage can icon. Also add a "are you sure" pop up when pressing.
 
 
