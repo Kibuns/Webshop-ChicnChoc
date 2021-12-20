@@ -5,6 +5,8 @@ The mockup in question:
 
 ![image](https://user-images.githubusercontent.com/77112006/145224513-2ae1ba83-fe16-48f9-a256-100bb3ea8154.png)
 
+The general idea of this design is that users will select a row by clicking on one, and then edit the contents of that row on the panel to the right.
+
 # Tests
 
 ## Respondents
