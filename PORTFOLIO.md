@@ -141,4 +141,36 @@ Do try this workflow out, I decided to work on a automatic docker build implemen
 Sourches:
 - [This project's board](https://github.com/Kibuns/Webshop-ChicnChoc/projects/1)
 
+## 5. Agile Method
+_You are aware of most popular agile methods and their underlying agile principles. You are able to implement the process of your software project according to a chosen methodology._
+
+This learning outcome is about understanding and using agile methods in your project. 
+
+## 6. Business process
+_Simple: predominantly sequential processes with one or two alternative paths._
+
+_Relate: understanding the relationships between the process and software._
+
+## 7. Requirements and Design
+
+_Multipletypes of test techniques: You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance._
+
+Since I'm my own steakholder in this project, there isn't a lot of validating to be done there. Thats why I did some user acceptance testing on some UI mockups I made. This research can be seen [here](https://github.com/Kibuns/Webshop-ChicnChoc/blob/master/UX%20Tests/Dashboard_Tests.md). This was made for the admin dashboard page for this project.
+
+The results from this test changes the design from this: 
+![image](https://user-images.githubusercontent.com/77112006/145224513-2ae1ba83-fe16-48f9-a256-100bb3ea8154.png)
+
+To this: 
+landing page dashboard:
+![image](https://user-images.githubusercontent.com/77112006/146179958-c2eaf65d-5a2a-4cf5-8a6a-3ef13d753ab3.png)
+
+After pressing "Add Product" button:
+![image](https://user-images.githubusercontent.com/77112006/146182560-70efc532-b347-447a-9f1d-fe31dbf044d7.png)
+
+After pressing on a edit button:
+![image](https://user-images.githubusercontent.com/77112006/146182498-ad3b5aa6-8ed1-408b-979d-6b2f53940267.png)
+
+Eventual look after implementing upload function:
+![image](https://user-images.githubusercontent.com/77112006/146182841-70be9ce4-c67e-490f-9516-f62e167bc7e7.png)
+
 
