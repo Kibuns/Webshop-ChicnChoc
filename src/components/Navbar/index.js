@@ -4,7 +4,7 @@ import LoginButton from "../LoginButton";
 import LogoutButton from "../LogoutButton";
 import { useAuth0 } from "@auth0/auth0-react";
 import Avatar from "@mui/material/Avatar";
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import {
   Nav,
   NavLink,
@@ -35,8 +35,8 @@ const Navbar = () => {
           <NavLink to="/about" activeStyle>
             About
           </NavLink>
-          <NavLink to="/services" activeStyle>
-            Services
+          <NavLink to="/jewellery" activeStyle>
+            Jewellery
           </NavLink>
           <NavLink to="/profile" activeStyle>
             Profile
@@ -45,7 +45,7 @@ const Navbar = () => {
             Contact us
           </NavLink>
           <NavLink to="/shopping_cart" activeStyle>
-          <ShoppingCartIcon fontSize="large"/>
+            <ShoppingCartIcon fontSize="large" />
           </NavLink>
           <LoginButton />
           <LogoutButton />

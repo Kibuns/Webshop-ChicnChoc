@@ -2,7 +2,7 @@ import React from "react";
 import ProductComponent from "../components/ProductComponent";
 import UserComponent from "../components/ProductComponent";
 
-const Services = () => {
+const Jewellery = () => {
   return (
     <div>
       <ProductComponent />
@@ -10,4 +10,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Jewellery;

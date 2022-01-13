@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages";
 import About from "./pages/About";
-import Services from "./pages/Services";
+import Jewellery from "./pages/Jewellery";
 import ProfilePage from "./pages/Profile";
 import Dashboard from "./pages/Dashboard";
 import Shopping_cart from "./pages/Shopping_cart";
@@ -32,7 +32,7 @@ function App() {
         <Route path="/profile" exact component={Profile} />
       </Switch>
       <Switch>
-        <Route path="/services" exact component={Services} />
+        <Route path="/jewellery" exact component={Jewellery} />
       </Switch>
       <Switch>
         <Route path="/dashboard" exact component={Dashboard} />
