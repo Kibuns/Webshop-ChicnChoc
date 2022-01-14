@@ -9,23 +9,29 @@ export default class ProductComponent extends React.Component {
 
     this.state = {
       product: [],
+      error: null,
     };
   }
 
   componentDidMount() {
     APIService.getProducts()
       .then((data) => {
+        // if (!data.ok) {
+        //   throw Error("could not fetch data for that resource");
+        // }
         this.setState({ product: data });
-        console.log(this.state.data);
+        console.log(data);
       })
-      .catch(function (ex) {
-        console.log("Response parsing failed. Error: ", ex);
+      .catch((err) => {
+        console.log(err.message);
+        this.setState({ error: err });
       });
   }
 
   render() {
     return (
       <div>
+        {/* {this.state.error && <div>{this.state.error}</div>} */}
         <h2 className="text-center">Product Details</h2>
         <div className="card-row" data-testid="name">
           {this.state.product.map((product) => (
