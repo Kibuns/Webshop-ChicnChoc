@@ -51,9 +51,12 @@ test("should render name and price of product card", () => {
 
 it("renders error component", async () => {
   render(<FetchJewellery throwError={true} />);
-  // Should find "Test Error" because in the Error component that should get rendered. The message will be "Test Error", if throwError is set to true
-  const ErrorComponentText = await screen.findByText("Test Error", {
-    exact: false,
-  });
+  // Should find "Oops, something went wrong" because the ErrorPage component has that in its template.
+  const ErrorComponentText = await screen.findByText(
+    "Oops, something went wrong",
+    {
+      exact: true,
+    }
+  );
   expect(ErrorComponentText).toBeInTheDocument();
 });
